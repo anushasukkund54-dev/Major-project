@@ -1,0 +1,32 @@
+# FastAPI
+fastapi
+uvicorn[standard]
+
+# Configuration
+pydantic
+pydantic-settings
+python-dotenv
+
+# PostgreSQL / Database
+sqlalchemy
+psycopg2-binary
+alembic
+
+# JWT Authentication & Password Security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# HTTP / Third-party APIs
+httpx
+
+# Resume Parsing
+pypdf
+python-docx
+
+# Local LLM - Ollama
+ollama
+
+# Testing
+pytest
+pytest-asyncio
